@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+ body {
+  background-image: url(photos-background/pont.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+} 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cabin', sans-serif;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+::-webkit-input-placeholder{
+    color: #ffffff;
+}
+::-moz-input-placeholder{
+    color: #ffffff;
+}
+::-ms-input-placeholder{
+    color: #ffffff;
+}
+
+.input{
+    border: 0;
+    color: #ffffff;
+    width: 100%;
+}
+
+div.textcenter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+form{
+    max-width: 55vw; 
+    max-height: 70vh;
+    overflow-y: scroll;
+    margin-top: 60px;
+    background-color: #24252a;
+    padding: 50px 70px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+form::-webkit-scrollbar{
+    width: 8px;
+    background-color: #0d141f;
+    border-radius: 0 8px 8px 0;
+}
+form::-webkit-scrollbar-thumb{
+    background-color: #525861;
+    border-radius: 0 8px 8px 0;
+}
+
+form h2{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form p.choose-email{
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+form .inputs{
+    display: flex;
+    flex-direction: column;
+    max-width: 55vw;
+}
+
+form input{
+    padding: 20px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #33353c;
+    margin-bottom: 20px;
+    outline: none;
+
+}
+
+
+
+form p.oublie{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+form p.oublie a{
+    color: #39b7dd;
+    cursor: pointer;
+    text-align: center;
+}
+form p.oublie a:hover{
+    color:  #41d3ff;
+}
+
+form button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #39b7dd;
+    outline: none;
+    cursor: pointer;
+}
+.link-profile a{
+    color: #ffffff;
+}
+
+form button:hover{
+    background-color: #41d3ff;
+}
+
+/* @media screen and (max-width: 300px) {
+    form{
+        margin-top: 60px;
+        background-color: #fff;
+        padding: 50px 70px;
+        border-radius: 10px;
+        max-width: 250px;
+        max-height: 580px;
+        margin-bottom: 100px;
+        overflow-y: scroll;
+    }
+} */
+.btn{
+    background: #39b7dd;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.msg textarea{
+    background: #33353c;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+::-webkit-textarea-placeholder{
+    color: #ffffff;
+}
+::-moz-textarea-placeholder{
+    color: #ffffff;
+}
+::-ms-textarea-placeholder{
+    color: #ffffff;
+}
+.msg textarea{
+    height: 212px;
+}
+@media screen and (max-height: 700px) {
+    .msg textarea{
+        height: 80px;
+    }
+    form {
+        overflow-y: scroll;
+    }
+}

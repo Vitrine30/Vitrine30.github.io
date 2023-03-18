@@ -1,0 +1,89 @@
+ body {
+  background-image: url(photos-background/pont.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+} 
+main{
+    height: 100vh;
+}
+.textcenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;        
+    padding-top: 15vh;
+    /* z-index: 1; */
+}
+
+form{
+    background-color: #24252a;
+    padding: 30px 50px;
+    border-radius: 10px;
+    max-width: 60vw;
+    /* z-index: 1; */
+}
+
+form h2{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+form p.choose-email{
+    text-align: center;
+}
+
+form input{
+    width: 30vw;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #33353c;
+    margin-bottom: 40px;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+}
+
+form button{
+    padding: 16px 30px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #39b7dd;
+    outline: none;
+    cursor: pointer;
+
+}
+
+form button:hover{
+    background-color: #41d3ff;
+}
+
+/* .input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+.input-fields{
+    width: 100%;
+} */
+.input{
+    border: 0;
+    color: #ffffff;
+    width: 100%;
+}
+
+::-webkit-input-placeholder{
+    color: #ffffff;
+}
+::-moz-input-placeholder{
+    color: #ffffff;
+}
+::-ms-input-placeholder{
+    color: #ffffff;
+}
